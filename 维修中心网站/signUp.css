@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+#zc-head
+{background-image:url(web-loginpic/zc-top.jpg);
+height:257px;
+}
+
+#zc-body
+{background-image:url(web-loginpic/zc-foot.jpg);
+height:284px;
+}
+
+#zccontent
+{width:500px;
+margin:0 auto;
+}
+
+#zcbottom
+{background-image:url(web-loginpic/zcbuttom.jpg);
+width:173px;
+height:58px;
+border:thin;
+border-left-style:none;
+border-right-style:none;
+border-top-style:none;
+margin-left:150px;
+cursor:pointer;
+}
+
+
+

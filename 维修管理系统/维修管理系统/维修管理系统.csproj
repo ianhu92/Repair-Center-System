@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD07BE6D-DD93-4841-A5F8-AABE9472233C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>维修管理系统</RootNamespace>
+    <AssemblyName>维修管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorityQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorityQuery.Designer.cs">
+      <DependentUpon>AuthorityQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeQuery.Designer.cs">
+      <DependentUpon>EmployeeQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntryApplicationQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntryApplicationQuery.Designer.cs">
+      <DependentUpon>EntryApplicationQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialManagerment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialManagerment.Designer.cs">
+      <DependentUpon>MaterialManagerment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseManagement.Designer.cs">
+      <DependentUpon>PurchaseManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HRManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HRManagement.Designer.cs">
+      <DependentUpon>HRManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepairCenterDataSet131.Designer.cs">
+      <DependentUpon>RepairCenterDataSet13.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="RepairCenterDataSet141.Designer.cs">
+      <DependentUpon>RepairCenterDataSet14.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="RepairCenterDataSet151.Designer.cs">
+      <DependentUpon>RepairCenterDataSet15.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="RepairCenterDataSet16.cs">
+      <DependentUpon>RepairCenterDataSet16.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RepairCenterDataSet161.Designer.cs">
+      <DependentUpon>RepairCenterDataSet16.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="RepairCenterDataSet171.Designer.cs">
+      <DependentUpon>RepairCenterDataSet17.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="RepairCenterDataSet181.Designer.cs">
+      <DependentUpon>RepairCenterDataSet18.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="RepairCenterDataSet191.Designer.cs">
+      <DependentUpon>RepairCenterDataSet19.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="RepairManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepairManagement.Designer.cs">
+      <DependentUpon>RepairManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialQuery.Designer.cs">
+      <DependentUpon>MaterialQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepairCenterDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepairCenterDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RrpairCenterDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RrpairCenterDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SupplierQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplierQuery.Designer.cs">
+      <DependentUpon>SupplierQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManagement.Designer.cs">
+      <DependentUpon>UserManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserQuery.Designer.cs">
+      <DependentUpon>UserQuery.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AuthorityQuery.resx">
+      <DependentUpon>AuthorityQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeQuery.resx">
+      <DependentUpon>EmployeeQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntryApplicationQuery.resx">
+      <DependentUpon>EntryApplicationQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseManagement.resx">
+      <DependentUpon>PurchaseManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialManagerment.resx">
+      <DependentUpon>MaterialManagerment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HRManagement.resx">
+      <DependentUpon>HRManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepairManagement.resx">
+      <DependentUpon>RepairManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialQuery.resx">
+      <DependentUpon>MaterialQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SupplierQuery.resx">
+      <DependentUpon>SupplierQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManagement.resx">
+      <DependentUpon>UserManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserQuery.resx">
+      <DependentUpon>UserQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RepairCenterDataSet.xsc">
+      <DependentUpon>RepairCenterDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepairCenterDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RepairCenterDataSet.xss">
+      <DependentUpon>RepairCenterDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet13.xsc">
+      <DependentUpon>RepairCenterDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet13.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepairCenterDataSet131.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepairCenterDataSet13.xss">
+      <DependentUpon>RepairCenterDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet14.xsc">
+      <DependentUpon>RepairCenterDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet14.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepairCenterDataSet141.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepairCenterDataSet14.xss">
+      <DependentUpon>RepairCenterDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet15.xsc">
+      <DependentUpon>RepairCenterDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet15.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepairCenterDataSet151.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepairCenterDataSet15.xss">
+      <DependentUpon>RepairCenterDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet16.xsc">
+      <DependentUpon>RepairCenterDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet16.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepairCenterDataSet161.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepairCenterDataSet16.xss">
+      <DependentUpon>RepairCenterDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet17.xsc">
+      <DependentUpon>RepairCenterDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet17.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepairCenterDataSet171.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepairCenterDataSet17.xss">
+      <DependentUpon>RepairCenterDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet18.xsc">
+      <DependentUpon>RepairCenterDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet18.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepairCenterDataSet181.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepairCenterDataSet18.xss">
+      <DependentUpon>RepairCenterDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet19.xsc">
+      <DependentUpon>RepairCenterDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="RepairCenterDataSet19.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RepairCenterDataSet191.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RepairCenterDataSet19.xss">
+      <DependentUpon>RepairCenterDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="RrpairCenterDataSet.xsc">
+      <DependentUpon>RrpairCenterDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RrpairCenterDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RrpairCenterDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RrpairCenterDataSet.xss">
+      <DependentUpon>RrpairCenterDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

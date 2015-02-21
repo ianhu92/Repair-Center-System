@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+#login-head
+{background-image:url(web-loginpic/top.jpg);
+height:253px
+}
+#login-body
+{background-image:url(web-loginpic/login.jpg);
+height:183px;
+}
+#bottom
+{background-image:url(web-loginpic/buttom1.jpg);
+width:99px;
+height:82px;
+border:thin;
+border-left-style:none;
+border-right-style:none;
+border-top-style:none;
+}
+#formbox
+{padding-top:20px;
+padding-left: 90px;
+}
+#bottomarea
+{float: left; 
+padding-left:10px; 
+padding-top:5px;
+}
+#content
+{width:500px;
+margin:0 auto;
+}
+
+

@@ -1,0 +1,5 @@
+E:\VSproject\Exam\Exam\bin\Exam.dll
+E:\VSproject\Exam\Exam\bin\Exam.pdb
+E:\VSproject\Exam\Exam\obj\Debug\ResolveAssemblyReference.cache
+E:\VSproject\Exam\Exam\obj\Debug\Exam.dll
+E:\VSproject\Exam\Exam\obj\Debug\Exam.pdb
